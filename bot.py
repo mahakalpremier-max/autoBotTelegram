@@ -8,7 +8,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("🏏 Join Channel", url="https://t.me/mahakalhere")],
         [InlineKeyboardButton("🎁 Referral Bonus", callback_data="bonus")],
         [InlineKeyboardButton("📞 GET YOUR ID", url="https://www.mahakalpremier.com/")],
-        [InlineKeyboardButton("Go To Website Now", url="https://www.mahakalpremier.com/"],
+        [InlineKeyboardButton("Go To Website Now", url="https://www.mahakalpremier.com/")],
     ]
 
     reply_markup = InlineKeyboardMarkup(keyboard)
