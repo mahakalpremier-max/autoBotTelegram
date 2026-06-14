@@ -21,7 +21,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 app = Application.builder().token(TOKEN).build()
 app.add_handler(CommandHandler("start", start))
 
-if name == "main":
+if __name__ == "__main__":
     import asyncio
     asyncio.set_event_loop(asyncio.new_event_loop())
     app.run_polling()
